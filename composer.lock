@@ -1,5 +1,5 @@
 {
-    "hash": "3cee9a3f450632945a4b5be242554241",
+    "hash": "634dd3bfcd28a2db86596f2d33603107",
     "packages": [
         {
             "name": "florianwolters/component-core-cloneable",
@@ -51,16 +51,16 @@
         },
         {
             "name": "florianwolters/component-core-debugprint",
-            "version": "v0.2.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FlorianWolters/PHP-Component-Core-DebugPrint.git",
-                "reference": "v0.2.0"
+                "reference": "63163e6db56a70f4afd54dfd277af03fd7c62d51"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FlorianWolters/PHP-Component-Core-DebugPrint/zipball/v0.2.0",
-                "reference": "v0.2.0",
+                "url": "https://api.github.com/repos/FlorianWolters/PHP-Component-Core-DebugPrint/zipball/63163e6db56a70f4afd54dfd277af03fd7c62d51",
+                "reference": "63163e6db56a70f4afd54dfd277af03fd7c62d51",
                 "shasum": ""
             },
             "require": {
@@ -97,7 +97,7 @@
                 "pattern",
                 "tostring"
             ],
-            "time": "2013-02-27 11:10:11"
+            "time": "2013-03-01 14:29:21"
         },
         {
             "name": "florianwolters/component-core-equality",
@@ -245,6 +245,104 @@
                 "immutable object"
             ],
             "time": "2013-03-19 16:50:12"
+        },
+        {
+            "name": "florianwolters/component-core-valueobject",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FlorianWolters/PHP-Component-Core-ValueObject.git",
+                "reference": "344f7ecb1e22da7b8aece5feb4352ca4b3fe9557"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FlorianWolters/PHP-Component-Core-ValueObject/zipball/344f7ecb1e22da7b8aece5feb4352ca4b3fe9557",
+                "reference": "344f7ecb1e22da7b8aece5feb4352ca4b3fe9557",
+                "shasum": ""
+            },
+            "require": {
+                "florianwolters/component-core-equality": "0.2.*",
+                "florianwolters/component-core-immutable": "0.1.*",
+                "florianwolters/component-util-singleton": "0.3.*",
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "FlorianWolters": [
+                        "src/php",
+                        "src/tests/mocks/php"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Florian Wolters",
+                    "email": "wolters.fl@gmail.com",
+                    "homepage": "http://blog.florianwolters.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "The Value Object implementation pattern as a PHP component.",
+            "homepage": "http://github.com/FlorianWolters/PHP-Component-Core-ValueObject",
+            "keywords": [
+                "Value Object",
+                "core"
+            ],
+            "time": "2013-03-26 15:46:18"
+        },
+        {
+            "name": "florianwolters/component-util-singleton",
+            "version": "v0.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FlorianWolters/PHP-Component-Util-Singleton",
+                "reference": "v0.3.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/FlorianWolters/PHP-Component-Util-Singleton/archive/v0.3.0.zip",
+                "reference": "v0.3.0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "FlorianWolters": [
+                        "src/php",
+                        "src/tests/unit-tests/php",
+                        "src/tests/mocks/php"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Florian Wolters",
+                    "email": "wolters.fl@gmail.com",
+                    "homepage": "http://blog.florianwolters.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "The Singleton (and Registry of Singletons a.k.a. Multiton) design pattern as a simple-to-use component.",
+            "homepage": "http://github.com/FlorianWolters/PHP-Component-Util-Singleton",
+            "keywords": [
+                "creation",
+                "pattern",
+                "singleton",
+                "utility"
+            ],
+            "time": "2012-12-13 10:51:32"
         }
     ],
     "packages-dev": [
@@ -254,9 +352,10 @@
 
     ],
     "minimum-stability": "stable",
-    "stability-flags": [
-
-    ],
+    "stability-flags": {
+        "florianwolters/component-core-debugprint": 20,
+        "florianwolters/component-core-valueobject": 20
+    },
     "platform": {
         "php": ">=5.4"
     },
