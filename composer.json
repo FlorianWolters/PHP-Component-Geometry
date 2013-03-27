@@ -1,0 +1,29 @@
+{
+    "name": "florianwolters/component-geometry",
+    "description": "Models and operations on objects related to geometry as a PHP component.",
+    "type": "library",
+    "keywords": ["geometry"],
+    "homepage": "http://github.com/FlorianWolters/PHP-Component-Geometry",
+    "license": "LGPL-3.0+",
+    "authors": [
+      {
+        "name": "Florian Wolters",
+        "email": "wolters.fl@gmail.com",
+        "homepage": "http://blog.florianwolters.de",
+        "role": "Developer"
+      }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "florianwolters/component-core-debugprint": "0.2.*",
+        "florianwolters/component-core-immutable": "0.1.*",
+        "florianwolters/component-core-equality": "0.2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "FlorianWolters": [
+                "src/php"
+            ]
+        }
+    }
+}
