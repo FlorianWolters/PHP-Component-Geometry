@@ -6,7 +6,7 @@ use \InvalidArgumentException;
 use FlorianWolters\Component\Core\DebugPrintInterface;
 use FlorianWolters\Component\Core\EqualityInterface;
 use FlorianWolters\Component\Core\ImmutableInterface;
-use FlorianWolters\Component\Core\ImmutableTrait;
+use FlorianWolters\Component\Core\ValueObjectTrait;
 
 /**
  * The class {@see Dimension2D} encapsulates the width and height of a component
@@ -25,7 +25,7 @@ final class Dimension2D implements
      EqualityInterface,
      ImmutableInterface
 {
-    use ImmutableTrait
+    use ValueObjectTrait
     {
         __construct as constructImmutableTrait;
     }
