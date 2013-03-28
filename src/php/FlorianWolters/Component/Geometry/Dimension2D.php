@@ -3,9 +3,7 @@ namespace FlorianWolters\Component\Geometry;
 
 use \InvalidArgumentException;
 
-use FlorianWolters\Component\Core\DebugPrintInterface;
 use FlorianWolters\Component\Core\EqualityInterface;
-use FlorianWolters\Component\Core\ImmutableInterface;
 use FlorianWolters\Component\Core\ValueObjectTrait;
 
 /**
@@ -20,10 +18,7 @@ use FlorianWolters\Component\Core\ValueObjectTrait;
  * @link      http://github.com/FlorianWolters/PHP-Component-Geometry
  * @since     Class available since Release 0.1.0
  */
-final class Dimension2D implements
-     DebugPrintInterface,
-     EqualityInterface,
-     ImmutableInterface
+final class Dimension2D implements Dimension2DInterface
 {
     use ValueObjectTrait
     {
@@ -163,16 +158,6 @@ final class Dimension2D implements
     {
         return '[' . $this->width . ', ' . $this->height . ']';
     }
-
-    /**
-     * Indicates whether the specified object is "equal to" this object.
-     *
-     * @param EqualityInterface|null $other The reference object with which to
-     *                                      compare.
-     *
-     * @return boolean `true` if this object is the same as the specified
-     *                 object; `false` otherwise.
-     */
 
     /**
      * Indicates whether the specified {@see Dimension2D} is equal to this {@see
