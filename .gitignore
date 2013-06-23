@@ -37,6 +37,10 @@ nb-configuration.xml
 review/
 vendor/
 
+# phpDocumentor
+
+phpdoc.xml
+
 # PHPUnit
 
 phpunit.xml
