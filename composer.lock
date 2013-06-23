@@ -1,5 +1,9 @@
 {
-    "hash": "634dd3bfcd28a2db86596f2d33603107",
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "3ca4ddee33b6af45a489f983855d690c",
     "packages": [
         {
             "name": "florianwolters/component-core-cloneable",
@@ -252,18 +256,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FlorianWolters/PHP-Component-Core-ValueObject.git",
-                "reference": "344f7ecb1e22da7b8aece5feb4352ca4b3fe9557"
+                "reference": "c2559ffbd284baae5921a2c857ec407eca100692"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FlorianWolters/PHP-Component-Core-ValueObject/zipball/344f7ecb1e22da7b8aece5feb4352ca4b3fe9557",
-                "reference": "344f7ecb1e22da7b8aece5feb4352ca4b3fe9557",
+                "url": "https://api.github.com/repos/FlorianWolters/PHP-Component-Core-ValueObject/zipball/c2559ffbd284baae5921a2c857ec407eca100692",
+                "reference": "c2559ffbd284baae5921a2c857ec407eca100692",
                 "shasum": ""
             },
             "require": {
                 "florianwolters/component-core-equality": "0.2.*",
                 "florianwolters/component-core-immutable": "0.1.*",
-                "florianwolters/component-util-singleton": "0.3.*",
                 "php": ">=5.4"
             },
             "type": "library",
@@ -293,56 +296,7 @@
                 "Value Object",
                 "core"
             ],
-            "time": "2013-03-26 15:46:18"
-        },
-        {
-            "name": "florianwolters/component-util-singleton",
-            "version": "v0.3.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/FlorianWolters/PHP-Component-Util-Singleton",
-                "reference": "v0.3.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://github.com/FlorianWolters/PHP-Component-Util-Singleton/archive/v0.3.0.zip",
-                "reference": "v0.3.0",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.4"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "FlorianWolters": [
-                        "src/php",
-                        "src/tests/unit-tests/php",
-                        "src/tests/mocks/php"
-                    ]
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "LGPL-3.0+"
-            ],
-            "authors": [
-                {
-                    "name": "Florian Wolters",
-                    "email": "wolters.fl@gmail.com",
-                    "homepage": "http://blog.florianwolters.de",
-                    "role": "Developer"
-                }
-            ],
-            "description": "The Singleton (and Registry of Singletons a.k.a. Multiton) design pattern as a simple-to-use component.",
-            "homepage": "http://github.com/FlorianWolters/PHP-Component-Util-Singleton",
-            "keywords": [
-                "creation",
-                "pattern",
-                "singleton",
-                "utility"
-            ],
-            "time": "2012-12-13 10:51:32"
+            "time": "2013-03-27 17:12:06"
         }
     ],
     "packages-dev": [
