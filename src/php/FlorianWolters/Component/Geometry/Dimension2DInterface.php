@@ -16,9 +16,9 @@ use FlorianWolters\Component\Core\ImmutableInterface;
  * @since     Interface available since Release 0.1.0
  */
 interface Dimension2DInterface extends
-     DebugPrintInterface,
-     EqualityInterface,
-     ImmutableInterface
+    DebugPrintInterface,
+    EqualityInterface,
+    ImmutableInterface
 {
     /**
      * Returns the width of this dimension.
