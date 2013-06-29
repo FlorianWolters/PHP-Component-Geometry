@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "3ca4ddee33b6af45a489f983855d690c",
+    "hash": "113cb811819fd6676be41ada02aac3d3",
     "packages": [
         {
             "name": "florianwolters/component-core-cloneable",
@@ -55,16 +55,16 @@
         },
         {
             "name": "florianwolters/component-core-debugprint",
-            "version": "dev-master",
+            "version": "v0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FlorianWolters/PHP-Component-Core-DebugPrint.git",
-                "reference": "63163e6db56a70f4afd54dfd277af03fd7c62d51"
+                "reference": "v0.2.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FlorianWolters/PHP-Component-Core-DebugPrint/zipball/63163e6db56a70f4afd54dfd277af03fd7c62d51",
-                "reference": "63163e6db56a70f4afd54dfd277af03fd7c62d51",
+                "url": "https://api.github.com/repos/FlorianWolters/PHP-Component-Core-DebugPrint/zipball/v0.2.0",
+                "reference": "v0.2.0",
                 "shasum": ""
             },
             "require": {
@@ -101,7 +101,7 @@
                 "pattern",
                 "tostring"
             ],
-            "time": "2013-03-01 14:29:21"
+            "time": "2013-02-27 11:10:11"
         },
         {
             "name": "florianwolters/component-core-equality",
@@ -252,16 +252,16 @@
         },
         {
             "name": "florianwolters/component-core-valueobject",
-            "version": "dev-master",
+            "version": "v0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FlorianWolters/PHP-Component-Core-ValueObject.git",
-                "reference": "c2559ffbd284baae5921a2c857ec407eca100692"
+                "reference": "v0.1.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FlorianWolters/PHP-Component-Core-ValueObject/zipball/c2559ffbd284baae5921a2c857ec407eca100692",
-                "reference": "c2559ffbd284baae5921a2c857ec407eca100692",
+                "url": "https://api.github.com/repos/FlorianWolters/PHP-Component-Core-ValueObject/zipball/v0.1.0",
+                "reference": "v0.1.0",
                 "shasum": ""
             },
             "require": {
@@ -296,7 +296,7 @@
                 "Value Object",
                 "core"
             ],
-            "time": "2013-03-27 17:12:06"
+            "time": "2013-06-29 11:19:25"
         }
     ],
     "packages-dev": [
@@ -306,10 +306,9 @@
 
     ],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "florianwolters/component-core-debugprint": 20,
-        "florianwolters/component-core-valueobject": 20
-    },
+    "stability-flags": [
+
+    ],
     "platform": {
         "php": ">=5.4"
     },

@@ -15,8 +15,8 @@
     ],
     "require": {
         "php": ">=5.4",
-        "florianwolters/component-core-debugprint": "@dev",
-        "florianwolters/component-core-valueobject": "@dev"
+        "florianwolters/component-core-debugprint": "0.2.*",
+        "florianwolters/component-core-valueobject": "0.1.*"
     },
     "autoload": {
         "psr-0": {
